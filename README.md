@@ -10,13 +10,14 @@ Based on the following work
 We incorporate user embeddings in both the embedding and recommendation blocks to encourage the model to learn user preferences. To avoid overfitting, we also regularise them using SSE-SE shared embedding regularisation.
 
 Architecture:
-<img src="Images/Diagrams/Arch.png" width="723"/>
+
+<img src="Images/Diagrams/Arch.png" width="500"/>
 
 # Recommendation Results
 To analyse the effects of personalisation, we prepared two baseline architectures. The first is the unpersonalised bidirectional architecture from BERT4Rec (_Unpers_). Essentially this is the same as our architecture, but without user embeddings and added regularisation. This will help us gauge the improvements that regularised personalisation adds to bidirectional architectures. For greater flexibility in isolating solely the performance increase due to SSE-SE, we also included a second baseline: our personalised architecture, but regularised solely with L2 regularisation and dropout (_No SSE-SE_).
 Both baselines were evaluated with MovieLens-1M on 100 negative items samples by popularity (_Pop_).
-<img src="Images/Diagrams/Results1.PNG" width="667"/>
+<img src="Images/Diagrams/Results1.PNG" width="500"/>
 
 To compare against other models, we used the results reported in other papers. For fairness and consistency, we first had to also evaluate our model on negative items sampled uniformly.
 
-<img src="Images/Diagrams/Results2.PNG" width="709"/>
+<img src="Images/Diagrams/Results2.PNG" width="500"/>
