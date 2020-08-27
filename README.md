@@ -18,6 +18,6 @@ To analyse the effects of personalisation, we prepared two baseline architecture
 Both baselines were evaluated with MovieLens-1M on 100 negative items samples by popularity (_Pop_).
 <img src="Images/Diagrams/Results1.PNG" width="667"/>
 
-To compare against other models, we used the results reported in other papers. For fairness and consistency, we first had to also evaluate our model on negative items sampled uniformly.
+To compare against other models, we used the results reported in other papers. For fairness and consistency, we first had to also evaluate our model on negative items sampled uniformly (_Uni_).
 
 <img src="Images/Diagrams/Results2.PNG" width="709"/>
