@@ -1,3 +1,7 @@
+# SUE-PBR: Shared User Embeddings for Personalised Bidirectional Recommendation
+
+This work was presented as a dissertation at the University of Edinburgh for my MSc Artificial Intelligence degree
+
 # Abstract
 This repository presents a state-of-the-art, personalised bidirectional recommendation system evaluated with a new data splitting technique. We show that user embeddings provide true personalisation by learning the latent preferences of users from their past actions. Interestingly, this information affects the recommendation process in various ways. For instance, incorporating user embeddings causes severe generalisation issues, making shared embedding regularisation a necessity. Furthermore, the user embeddings also affect model behaviour, causing it to assign a higher weighting to more recent user actions.
 
